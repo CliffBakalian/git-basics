@@ -23,3 +23,5 @@ jobs:
         # succeeds. This can be changed as needed.
         name: Merge me!
         uses: ridedott/merge-me-action@v2
+        with:
+          GITHUB_TOKEN: ${{ secrets.TOK }}
